@@ -202,3 +202,13 @@ a.register {
     border-style: inherit;
     border-color: #b12025;
 }
+
+.carreta {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.image-login {
+    height: fit-content;
+}
