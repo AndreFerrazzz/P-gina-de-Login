@@ -106,7 +106,7 @@ function enviar() {
     for (let i = 0; i < users.length; i++) {
         if (users[i].username == usernameLogin) {
             if (users[i].password == passwordLogin) {
-                window.location.assign('./inicio.html');
+                window.location.assign('./conteudo.html');
                 return;
             } else {
                 alert('Senha incorreta! Tente novamente.');
